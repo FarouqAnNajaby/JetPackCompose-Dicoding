@@ -1,7 +1,8 @@
 package com.example.submissioncomposedicoding.model
 
 data class Country (
-    val id: String,
+    val id: Long,
     val name: String,
-    val photoUrl: String,
+    val photoUrl: Int,
+    val desc: String
 )

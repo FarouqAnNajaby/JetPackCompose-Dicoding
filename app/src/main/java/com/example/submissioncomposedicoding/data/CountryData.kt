@@ -1,58 +1,29 @@
 package com.example.submissioncomposedicoding.data
 
+import com.example.submissioncomposedicoding.R
 import com.example.submissioncomposedicoding.model.Country
 
 object CountryData {
     val countries = listOf(
-        Country(
-            "1",
-            "Argentina",
-            "https://cdn.britannica.com/18/147118-050-7F820ED5/flag-Argentina-2010.jpg"
-        ),
-        Country(
-            "2",
-            "Brazil",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Brazil.svg&psig=AOvVaw3ckIgd_-SHL7EFBhOYq_xn&ust=1670857627335000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMiKo-zr8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "3",
-            "France",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFlag_of_France.png&psig=AOvVaw0kNelTrjZ4pUcysyGyoUcY&ust=1670857672433000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLjX14Hs8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "4",
-            "Morocco",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Morocco.svg&psig=AOvVaw1CkM2TGvTCQCggf7yF0fxw&ust=1670857694561000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKjIoYzs8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "5",
-            "Croatia",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Croatia.png&psig=AOvVaw1YmsRp3128Wq94yHDOgcpG&ust=1670857735317000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCICX3p_s8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "6",
-            "Portugal",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Portugal.svg&psig=AOvVaw2T9Cds3z4pIrYVllA5sk6a&ust=1670857776736000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMCNurPs8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "7",
-            "England",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AEngland_flag.png&psig=AOvVaw2Qmubez7tEg5kLXg1b4chl&ust=1670857814009000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNi3ncXs8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "8",
-            "Netherlands",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_the_Netherlands.png&psig=AOvVaw3P_K8QjaNJU9t5XC-CE6PX&ust=1670857869671000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLjc39_s8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "9",
-            "Indonesia",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AFlag_of_Indonesia.svg&psig=AOvVaw3q_uCUka0Mmy9OF7pdI6QB&ust=1670857899104000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNjf6O3s8fsCFQAAAAAdAAAAABAE"
-        ),
-        Country(
-            "10",
-            "Spain",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlag_of_Spain.svg&psig=AOvVaw1h3itKvJShGSi2bLMabEY4&ust=1670857935146000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJifif_s8fsCFQAAAAAdAAAAABAE"
-        ),
+        Country(1, "Argentina", R.drawable.argentina,
+            "Argentina is a country in the southern half of South America. Argentina covers an area of 2,780,400 km2 (1,073,500 sq mi),[B] making it the second-largest country in South America after Brazil, the fourth-largest country in the Americas, and the eighth-largest country in the world. It shares the bulk of the Southern Cone with Chile to the west, and is also bordered by Bolivia and Paraguay to the north, Brazil to the northeast, Uruguay and the South Atlantic Ocean to the east, and the Drake Passage to the south. Argentina is a federal state subdivided into twenty-three provinces, and one autonomous city, which is the federal capital and largest city of the nation, Buenos Aires. The provinces and the capital have their own constitutions, but exist under a federal system. Argentina claims sovereignty over the Falkland Islands, South Georgia and the South Sandwich Islands, and a part of Antarctica."),
+        Country(2, "Brazil", R.drawable.brazil,
+            "Brazil is the largest country in both South America and Latin America. At 8.5 million square kilometers (3,300,000 sq mi)[10] and with over 217 million people, Brazil is the world's fifth-largest country by area and the seventh most populous. Its capital is Brasília, and its most populous city is São Paulo. The federation is composed of the union of the 26 states and the Federal District. It is the largest country to have Portuguese as an official language and the only one in the Americas;[11][12] one of the most multicultural and ethnically diverse nations, due to over a century of mass immigration from around the world;[13] and the most populous Roman Catholic-majority country"),
+        Country(3, "France", R.drawable.france,
+            "France is a country primarily located in Western Europe. It also comprises of overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.[XII] Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea; overseas territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. "),
+        Country(4, "Morocco", R.drawable.morocco,
+            "Morocco is the westernmost country in the Maghreb region of North Africa. It overlooks the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east, and the disputed territory of Western Sahara to the south. Mauritania lies to the south of Western Sahara. Morocco also claims the Spanish exclaves of Ceuta, Melilla and Peñón de Vélez de la Gomera, and several small Spanish-controlled islands off its coast.[17] It spans an area of 446,300 km2 (172,300 sq mi)[18] or 710,850 km2 (274,460 sq mi),[b] with a population of roughly 37 million. Its official and predominant religion is Islam, and the official languages are Arabic and Berber; the Moroccan dialect of Arabic and French are also widely spoken. Moroccan identity and culture is a mix of Arab, Berber, and European cultures. Its capital is Rabat, while its largest city is Casablanca.[19]"),
+        Country(5, "Croatia", R.drawable.croatia,
+            "Croatia is a country at the crossroads of Central and Southeast Europe. It shares a coastline along the Adriatic Sea. It borders Slovenia to the northwest, Hungary to the northeast, Serbia to the east, Bosnia and Herzegovina and Montenegro to the southeast, and shares a maritime border with Italy to the west and southwest. Its capital and largest city, Zagreb, forms one of the country's primary subdivisions, with twenty counties. The country spans 56,594 square kilometres (21,851 square miles), and has a population of nearly 3.9 million."),
+        Country(6, "Portugal", R.drawable.portugal,
+            "Portugal is a country whose mainland is located on the Iberian Peninsula of Southwestern Europe, and whose territory also includes the Atlantic archipelagos of the Azores and Madeira. It features the westernmost point in continental Europe, and its Iberian portion is bordered to the west and south by the Atlantic Ocean and to the north and east by Spain, the sole country to have a land border with Portugal. Its two archipelagos form two autonomous regions with their own regional governments. Lisbon is the capital and largest city by population."),
+        Country(7, "England", R.drawable.england,
+            "England is a country that is part of the United Kingdom.[4] It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest and the Celtic Sea to the southwest. It is separated from continental Europe by the North Sea to the east and the English Channel to the south. The country covers five-eighths of the island of Great Britain, which lies in the North Atlantic, and includes over 100 smaller islands, such as the Isles of Scilly and the Isle of Wight."),
+        Country(8, "Netherlands", R.drawable.netherlands,
+            "Netherlands is a country located in Northwestern Europe with overseas territories in the Caribbean. It is the largest of four constituent countries of the Kingdom of the Netherlands.[15][16][17] The Netherlands consists of twelve provinces; it borders Germany to the east, and Belgium to the south, with a North Sea coastline to the north and west. It shares maritime borders with the United Kingdom, Germany and Belgium in the North Sea.[18] The country's official language is Dutch, with West Frisian as a secondary official language in the province of Friesland.[1] Dutch Low Saxon and Limburgish are recognised regional languages, while Dutch Sign Language, Sinte Romani and Yiddish are recognised non-territorial languages.[1][2] Dutch, English and Papiamento are official in the Caribbean territories.[1]"),
+        Country(9, "Indonesia", R.drawable.indonesia,
+            "Indonesia is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea. Indonesia is the world's largest archipelagic state and the 14th-largest country by area, at 1,904,569 square kilometres (735,358 square miles). With over 275 million people, Indonesia is the world's fourth-most populous country and the most populous Muslim-majority country. Java, the world's most populous island, is home to more than half of the country's population."),
+        Country(10, "Spain", R.drawable.spain,
+            "Spain is a country primarily located in southwestern Europe with parts of territory in the Atlantic Ocean and across the Mediterranean Sea.[11][g] The largest part of Spain is situated on the Iberian Peninsula; its territory also includes the Canary Islands in the Atlantic Ocean, the Balearic Islands in the Mediterranean Sea, and the autonomous cities of Ceuta and Melilla in Africa."),
     )
 }
